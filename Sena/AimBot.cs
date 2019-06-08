@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace Sena
+namespace RiskOfShame
 {
     public class AimBot : MonoBehaviour
     {

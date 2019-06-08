@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 using System.Linq;
-namespace Sena
+namespace RiskOfShame
 {
     public class Loader
     {

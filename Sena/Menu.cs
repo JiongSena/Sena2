@@ -2,7 +2,7 @@
 using System.Reflection;
 using UnityEngine;
 
-namespace Sena
+namespace RiskOfShame
 {
     public class Menu : MonoBehaviour
     {
