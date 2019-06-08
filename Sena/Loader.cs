@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 using System.Linq;
-namespace RiskOfShame
+namespace Sena
 {
     public class Loader
     {
@@ -9,7 +9,7 @@ namespace RiskOfShame
         public static void Load()
         {
             //RoR2.RoR2Application.isModded = true;
-            while (BaseObject = UnityEngine.GameObject.Find("Risk Of Shame"))
+            while (BaseObject = UnityEngine.GameObject.Find("Sena"))
                 UnityEngine.GameObject.Destroy(BaseObject);
             BaseObject = new UnityEngine.GameObject("Risk Of Shame");
             UnityEngine.Object.DontDestroyOnLoad(BaseObject);
