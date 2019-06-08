@@ -2,7 +2,7 @@
 using System.Reflection;
 using UnityEngine;
 
-namespace RiskOfShame
+namespace Sena
 {
     public class Menu : MonoBehaviour
     {
@@ -28,7 +28,7 @@ namespace RiskOfShame
 #if DEBUG
                 MenuWindow = GUILayout.Window(MenuId, MenuWindow, MenuMethod, "init : " + GetType().Namespace, GUILayout.ExpandHeight(true));
 #else
-                MenuWindow = GUILayout.Window(MenuId, MenuWindow, MenuMethod, "Risk of Shame " + Assembly.GetExecutingAssembly().GetName().Version, GUILayout.ExpandHeight(true));
+                MenuWindow = GUILayout.Window(MenuId, MenuWindow, MenuMethod, "Sena " + Assembly.GetExecutingAssembly().GetName().Version, GUILayout.ExpandHeight(true));
 #endif
             }
         }
