@@ -9,7 +9,7 @@ namespace Sena
         public static void Load()
         {
             //RoR2.RoR2Application.isModded = true;
-            while (BaseObject = UnityEngine.GameObject.Find("🆂🅴🅽 "))
+            while (BaseObject = UnityEngine.GameObject.Find("Sena "))
                 UnityEngine.GameObject.Destroy(BaseObject);
             BaseObject = new UnityEngine.GameObject("Sena");
             UnityEngine.Object.DontDestroyOnLoad(BaseObject);
