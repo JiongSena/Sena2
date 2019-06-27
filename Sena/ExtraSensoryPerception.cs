@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Sena
 {
-    public class ExtraSensoryPerception : MonoBehaviour
+    public class 透视 : MonoBehaviour
     {
         public static class ResourcesCached
         {
