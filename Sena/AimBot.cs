@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Sena
 {
-    public class AimBot : MonoBehaviour
+    public class 自瞄 : MonoBehaviour
     {
         void OnEnable()
         {
