@@ -24,7 +24,7 @@ namespace Sena
             BaseObject.SetActive(true);
         }
 
-        public static void Unload()
+        public static void 退出()
         {
             UnityEngine.Object.Destroy(BaseObject);
         }
