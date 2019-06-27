@@ -40,7 +40,7 @@ namespace Sena
                     continue;
                 mono.enabled = GUILayout.Toggle(mono.enabled, mono.GetType().Name);
             }
-            var unload = GUILayout.Toggle(false, "Unload");
+            var unload = GUILayout.Toggle(false, "退出");
             if (unload)
                 Destroy(Loader.BaseObject);
             GUI.DragWindow();
