@@ -28,7 +28,7 @@ namespace Sena
 #if DEBUG
                 MenuWindow = GUILayout.Window(MenuId, MenuWindow, MenuMethod, "init : " + GetType().Namespace, GUILayout.ExpandHeight(true));
 #else
-                MenuWindow = GUILayout.Window(MenuId, MenuWindow, MenuMethod, "_Sena_  " + Assembly.GetExecutingAssembly().GetName().Version, GUILayout.ExpandHeight(true));
+                MenuWindow = GUILayout.Window(MenuId, MenuWindow, MenuMethod, "囧丶WS" + Assembly.GetExecutingAssembly().GetName().Version, GUILayout.ExpandHeight(true));
 #endif
             }
         }
