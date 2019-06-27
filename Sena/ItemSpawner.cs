@@ -18,7 +18,7 @@ namespace Sena
         }
         void OnGUI()
         {
-            ItemSelectorWindow = GUILayout.Window(ItemSelectorId, ItemSelectorWindow, ItemSelectorMethod, "Sena刷物品");
+            ItemSelectorWindow = GUILayout.Window(ItemSelectorId, ItemSelectorWindow, ItemSelectorMethod, "刷物品");
         }
         void ItemSelectorMethod(Int32 id)
         {
