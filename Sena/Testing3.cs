@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Sena
 {
-    public class 25%攻速 : MonoBehaviour
+    public class 25攻速 : MonoBehaviour
     {
         T CopyComponent<T>(T original, GameObject destination) where T : Component
         {
