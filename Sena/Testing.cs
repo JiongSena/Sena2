@@ -125,7 +125,7 @@ namespace Sena
             RoR2.RuleCatalog.allCategoryDefs.FirstOrDefault(c => c.displayToken == "RULE_HEADER_ITEMS").hiddenTest = new Func<bool>(False);
             RoR2.RuleCatalog.allCategoryDefs.FirstOrDefault(c => c.displayToken == "RULE_HEADER_EQUIPMENT").hiddenTest = new Func<bool>(False);
             RoR2.RuleCatalog.allCategoryDefs.FirstOrDefault(c => c.displayToken == "RULE_HEADER_MISC").hiddenTest = new Func<bool>(False);*/
-            RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseMoveSpeed = 5.0f;
+            RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseMoveSpeed = 7.0f;
             RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseJumpCount = 10;
             RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseAttackSpeed = 5;
 
